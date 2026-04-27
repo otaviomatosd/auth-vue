@@ -1,44 +1,53 @@
-# auth-vue
+ Auth Vue
 
-This template should help get you started developing with Vue 3 in Vite.
+Frontend desenvolvido com Vue.js para um sistema de autenticação de usuários.
 
-## Recommended IDE Setup
+ Sobre o projeto
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Este projeto é a interface de um sistema de login e cadastro de usuários. Ele se comunica com uma API backend responsável pela autenticação utilizando JWT.
 
-## Recommended Browser Setup
+ Tecnologias
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+* Vue.js 3
+* Vite
+* Axios
 
-## Customize configuration
+ Funcionalidades
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+* Tela de login
+* Cadastro de usuário
+* Armazenamento de token
+* Consumo de API de autenticação
+* Rotas protegidas
 
-## Project Setup
+ Como executar
 
-```sh
+1. Clone o repositório:
+
+git clone https://github.com/otaviomatosd/auth-vue.git
+cd auth-vue
+
+2. Instale as dependências:
+
 npm install
-```
 
-### Compile and Hot-Reload for Development
 
-```sh
+3. Execute o projeto:
+
 npm run dev
-```
 
-### Compile and Minify for Production
 
-```sh
-npm run build
-```
+ Integração com backend
 
-### Lint with [ESLint](https://eslint.org/)
+Esta aplicação consome a API disponível em:
 
-```sh
-npm run lint
-```
+https://github.com/otaviomatosd/auth-api
+
+ Observações
+
+* Certifique-se de que o backend está rodando antes de iniciar o frontend.
+* O endpoint da API pode ser configurado no projeto.
+
+ Autor
+
+Otávio Matos
